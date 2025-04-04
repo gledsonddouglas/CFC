@@ -17,7 +17,7 @@ def calcular_custos(aluguel, salarios, outras_despesas, materia_prima, embalagen
     return cfc, cvm, ctp
 
 # Interface com Streamlit
-st.title("📊 Painel de Custos - MARMITA")
+st.title("📊 Painel de Custos - PRODUTO")
 
 st.header("Custos Fixos")
 aluguel = st.number_input("Aluguel (R$)", min_value=0.0, value=0.0, step=100.0)
